@@ -16,4 +16,4 @@ jobs:
         with:
           start: yarn start
           wait-on: 'http://localhost:3000'
-          repo-token: ${{ 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 }}
+          repo-token: ${{ secrets.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 }}
